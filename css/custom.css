@@ -73,36 +73,48 @@ h3 {
 }
 
 input.taskinput {
-	position: absolute;
-	font-family: InterstateCondMono;
-	width: 800px;
-	height: 50px;
-	border:0px;
+	position: relative;
 	text-align: center;
-	/*border-bottom: 1px gray solid;*/
-	background:rgba(0,0,0,0);
+	font-family: InterstateCondMono;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	border: none;
 	color: #000000;
-	top: 0px;
 	font-size: 28px;
 	z-index: 99998129321983;
-	padding-left: 40px;
-  	box-shadow:none !important;
-}
+	/*-webkit-box-shadow:none !important;
+	box-shadow:none !important;
+	-webkit-animation: blink-empty 1s infinite;
+	-moz-animation: blink-empty 1s infinite;
+	-ms-animation: blink-empty 1s infinite;
+	-o-animation: blink-empty 1s infinite;
+	animation: blink-empty 1s infinite;
+	border-right: transparent solid 1px;
+*/}
 
 input.taskinput:focus {
-	border: 0px;
+	border: none;
 }
 
 .meter {
-	height: 50px;  /* Can be anything */
+	height: 50px;
 	position: relative;
-  	max-width: 800px;
-  	width: 80%;
-  	margin: 0 auto;
-	border-bottom: #000 10px solid;
-	/*border-radius: 25px;*/
-	/*padding: 10px;*/
+	width: 70%;
+	margin: 0 auto;
+	background-color:#FFFFFF;
+	border-color:#666666 #CCCCCC #CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	color:#000000;
+}
 
+.meter:focus{
+	border:2px solid #73A6FF !important; 
+	margin:0 !important;
+	outline-color:-moz-use-text-color !important; 
+	outline-style:none !important; 
+	outline-width:0 !important; 
 }
 
 .meter > span {
@@ -138,16 +150,6 @@ input.taskinput:focus {
 	right: 20;
 }
 
-div.press {
-	background: url("img/press1.png");
-	padding: 50px 0px 100px 0px;
-	text-align: center;
-}
-
-div.press:hover {
-	background: url("img/press2.png");
-}
-
 .colorrow {
 	padding-top: 20px;
 }
@@ -178,13 +180,9 @@ div.press:hover {
 	padding-right: 10px;
 }
 
-a.pressbutton {
-	 display: block;
-	 background: transparent url('img/press1.png') center top no-repeat;
-}
-
-a.pressbutton:hover {
-	background-image: url("img/press3.png");
+.press{
+	text-align: center;
+	padding:50px 0px 0px 50px;
 }
 
 .fuckyou {
