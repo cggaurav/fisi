@@ -1,0 +1,201 @@
+@font-face{
+	font-family: InterstateCondMono;
+	src: url('../fonts/InterstateCondMono.otf');
+}
+
+@font-face{
+  font-family: 'Open Sans';
+}
+
+div#zen {
+  overflow:hidden;
+}
+div#zen p {
+  font-family: 'Open Sans';
+  position: absolute;
+  width:100%;
+  font-size:150px;
+  text-align:center;
+  margin-top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.zen_toggle {
+  background: #ccc;
+  height: 25px;
+  width: 25px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+body{
+	margin-top: 30px;
+	background-color: #fff;
+}
+
+#logo {
+	vertical-align: middle;
+	max-width: 800px;
+	max-height: 400px;
+	text-align: center;
+	padding: 20px 0px 0px 0px;
+	margin: 0 auto;
+}
+
+h1, h2, h3 {
+	color: #dddddb;
+	font-family: InterstateCondMono;
+}
+
+h1.tagline {
+	font-size: 60px;
+	line-height: 64px;
+}
+
+h2.slogan {
+	font-size: 20px;
+	line-height: 26px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+input.taskinput {
+	position: absolute;
+	font-family: InterstateCondMono;
+	width: 600px;
+	height: 50px;
+	border:0px;
+	text-align: center;
+	/*border-bottom: 1px gray solid;*/
+	background:rgba(0,0,0,0);
+	color: #000000;
+	top: 0px;
+	/*color: #fff;*/
+	font-size: 28px;
+	z-index: 99998129321983;
+	padding-left: 40px;
+  	box-shadow:none !important;
+}
+
+input.taskinput:focus {
+	border: 0px;
+}
+
+.meter {
+	height: 50px;  /* Can be anything */
+	position: relative;
+  	max-width: 800px;
+  	width: 80%;
+  	margin: 0 auto;
+	border-bottom: #000 10px solid;
+	/*border-radius: 25px;*/
+	/*padding: 10px;*/
+
+}
+
+.meter > span {
+	display: block;
+	height: 100%;
+	background: #70656a;
+	/*background: #f05544;*/
+	/*background-color: red;*/
+	/*background-color: rgb(43,194,83);*/
+	position: relative;
+	overflow: hidden;
+}
+
+#footer {
+  height: 30px;
+  text-align: center;
+  font-family: InterstateCondMono;
+  font-size: 13px;
+
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px;
+
+}
+#countdown {
+	float: right;
+	top: -5;
+	position: absolute;
+	right: 20;
+}
+
+div.press {
+	background: url("img/press1.png");
+	padding: 50px 0px 100px 0px;
+	text-align: center;
+}
+
+div.press:hover {
+	background: url("img/press2.png");
+}
+
+.colorrow {
+	padding-top: 20px;
+}
+
+.colorrow .navlinks .button0 {
+	padding-right: 20px;
+}
+
+.colorrow .navlinks .button {
+	padding-bottom: 10px;
+}
+
+.colorrow .navlinks .button:hover {
+	opacity:0.6;
+	filter:alpha(opacity=40);
+}
+
+.navlinks {
+	display: inline;
+	padding: 20px 0px 0px 0px;
+}
+
+.navlinks img {
+	float: left;
+}
+
+.navlinks .button {
+	padding-right: 10px;
+}
+
+a.pressbutton {
+	 display: block;
+	 background: transparent url('img/press1.png') center top no-repeat;
+}
+
+a.pressbutton:hover {
+	background-image: url("img/press3.png");
+}
+
+.fuckyou {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.askpress {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.tagbox {
+text-align: center;
+margin: 0 auto;
+padding-top: 80px;
+padding-bottom: 20px;
+}
